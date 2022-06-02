@@ -3,19 +3,29 @@ body {
 }
 
 h1 {
-    color: whitesmoke;
+    color: #b0bec5;
 }
 
 h2 {
-    color: whitesmoke;
+    color: #b0bec5;
 }
 
 h3 {
-    color: whitesmoke;
+    color: #b0bec5;
 }
 
 p {
-    color: whitesmoke;
+    color: #b0bec5;
+}
+
+hr {
+    color: #b0bec5;
+    width: 500px;
+}
+
+.funfact {
+    color: #b0bec5;
+    width: 700px;
 }
 
 ul {
@@ -46,5 +56,43 @@ li a:hover {
     background-color: #122832;
     margin: auto;
     max-width: 1000px;
-    height: 1300px;
+    height: 650px;
+    padding: 20px;
+    text-align: center;
+}
+
+.email {
+    max-width: 190px;
+    padding: 5px;
+    margin: auto;
+}
+
+.rating {
+    width: 100px;
+    margin: auto;
+}
+
+.rating-box {
+    max-width: 100px;
+    margin: auto;
+    padding: 3px;
+}
+
+.lomake {
+    display: grid;
+    position: relative;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 5px;
+    color: #b0bec5;
+    resize: none;
+}
+
+.extra-comment-box {
+    resize: none;
+    padding: 7px;
+}
+
+.submit {
+    margin: auto;
 }
