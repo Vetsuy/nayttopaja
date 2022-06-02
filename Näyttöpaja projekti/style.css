@@ -1,8 +1,31 @@
 body {
-    background-color: #121416;
-    text-align: center;
-
+    background-color: #091419;
 }
+
 h1 {
     color: whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+    margin: 25px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #245064;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
 }
