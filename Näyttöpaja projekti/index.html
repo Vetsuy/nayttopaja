@@ -16,14 +16,43 @@
 
                 <div class="sisempi-laatikko">
                     <h1>Matti's website</h1>
+
                     <h2>Welcome to Matti's website!</h2>
                     <p>
                         Hey! My name is Matti and this is my very own website. 
                         Here you can find information about me, my hobbies, past work experiences and education. 
                         You can use the navigation bar to pick a topic you want to read about.
                     </p>
+
+                    <hr class="funfact">
+
                     <h3>Fun Fact</h3>
                     <p>I actually didn't make this website myself, it was made by three students.</p>
+                    <hr>
+
+                    <div class="lomake">
+                        <form class="lomake">
+                            <h1>Feedback</h1>
+                            <input class="email" type="email" pattern="[^ @]*@[^ @]*" placeholder="Enter your Email">
+                            <br>
+                            <label>Thoughts on the website?</label>
+                            <section class="rating">
+                                <select class="rating-box" name="ratings" id="rating">
+                                  <option value="rating-1">Good</option>
+                                  <option value="rating-2">Bad</option>
+                                  <option value="rating-3">Basic</option>
+                                </select>
+                            </section>
+                            <br>
+                            <section class="extra-comment">
+                                <label for="extra">Something you want to comment?</label>
+                                <br>
+                                <textarea class="extra-comment-box" id="extra" name="extra" rows="5" cols="30" placeholder="Enter your feedback here"></textarea>
+                              </section>
+                            <br>
+                            <input class="submit" type="submit" value="Submit" placeholder="Submit">
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
