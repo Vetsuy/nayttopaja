@@ -1,5 +1,5 @@
-window.addEventListener("load", event => {
-    document.getElementById("reload").onclick = function() {
-        location.reload(true);
-    }
-});
+function f1() {
+    var x = document.getElementById("Submit");
+
+    alert("Thank you for your feedback");
+}
