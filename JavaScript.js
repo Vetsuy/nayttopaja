@@ -1,5 +1,9 @@
 function f1() {
-    var x = document.getElementById("Submit");
-
-    alert("Thank you for your feedback");
+    var submit = document.getElementById("submit").value;
+    
+    alert("Thanks for the submition");
+}
+    
+function main() {
+f1();
 }
