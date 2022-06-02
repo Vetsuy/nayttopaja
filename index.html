@@ -2,8 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
-   
-    <script src="JavaScript.js"></script>
+    <link href="JavaScript.js">
     <title>Matti's website</title>
 </head>
 <body>
@@ -36,7 +35,7 @@
                     <div class="lomake">
                         <form class="lomake">
                             <h1 class="feedback-text">Feedback</h1>
-                            <input class="email" type="email" pattern="[^ @]*@[^ @]*" placeholder="Enter your Email" required> 
+                            <input class="email" type="email" pattern="[^ @]*@[^ @]*" placeholder="Enter your Email" required>
                             <br>
                             <label>Thoughts on the website?</label>
                             <section class="rating">
@@ -51,7 +50,7 @@
                                 <textarea class="extra-comment-box" id="extra" name="extra" rows="5" cols="30" placeholder="Enter your feedback here"></textarea>
                             </section>
                             <br>
-                            <input type="button" id="Submit" value="Submit">
+                            <input class="submit" type="submit" value="Submit" id="Submit" placeholder="Submit">
                         </form>
                     </div>
                 </div>
