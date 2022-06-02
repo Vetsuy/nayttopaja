@@ -1,0 +1,51 @@
+body {
+    background-color: #091419;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  hr {
+    max-width: 200px;
+  }
+
+  h1 {
+    padding-top: 20px;
+  }
+
+  p {
+    font-size: larger;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 25px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #245064;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .sisempi-laatikko {
+    background-color: #122832;
+    margin: auto;
+    max-width: 1300px;
+    height: 775px;
+  }
