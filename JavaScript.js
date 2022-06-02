@@ -1,7 +1,7 @@
 function f2() {
     var submit = document.getElementById("submit").value;
     
-      alert("Thanks for the submition");
+      alert("Thanks for the submission");
     }
     
     function f1() {
