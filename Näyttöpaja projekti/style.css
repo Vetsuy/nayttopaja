@@ -6,6 +6,18 @@ h1 {
     color: whitesmoke;
 }
 
+h2 {
+    color: whitesmoke;
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
+}
+
 ul {
     list-style-type: none;
     margin: 25px;
@@ -28,4 +40,11 @@ li a {
   
 li a:hover {
     background-color: #111;
+}
+
+.sisempi-laatikko {
+    background-color: #122832;
+    margin: auto;
+    max-width: 1000px;
+    height: 1300px;
 }
